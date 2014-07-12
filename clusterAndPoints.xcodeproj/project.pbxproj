@@ -22,6 +22,11 @@
 		7AF7E4D91971993D0078CAF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF7E4B81971993D0078CAF6 /* UIKit.framework */; };
 		7AF7E4E11971993D0078CAF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AF7E4DF1971993D0078CAF6 /* InfoPlist.strings */; };
 		7AF7E4E31971993D0078CAF6 /* clusterAndPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4E21971993D0078CAF6 /* clusterAndPointsTests.m */; };
+		7AF7E4F6197199500078CAF6 /* IPhone4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4ED197199500078CAF6 /* IPhone4ViewController.m */; };
+		7AF7E4F7197199500078CAF6 /* IPhone5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4EF197199500078CAF6 /* IPhone5ViewController.m */; };
+		7AF7E4F8197199500078CAF6 /* IPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4F1197199500078CAF6 /* IPadViewController.m */; };
+		7AF7E4F9197199500078CAF6 /* DrawPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4F3197199500078CAF6 /* DrawPoint.m */; };
+		7AF7E4FA197199500078CAF6 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7E4F5197199500078CAF6 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,16 @@
 		7AF7E4DE1971993D0078CAF6 /* clusterAndPointsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clusterAndPointsTests-Info.plist"; sourceTree = "<group>"; };
 		7AF7E4E01971993D0078CAF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AF7E4E21971993D0078CAF6 /* clusterAndPointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clusterAndPointsTests.m; sourceTree = "<group>"; };
+		7AF7E4EC197199500078CAF6 /* IPhone4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhone4ViewController.h; sourceTree = "<group>"; };
+		7AF7E4ED197199500078CAF6 /* IPhone4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhone4ViewController.m; sourceTree = "<group>"; };
+		7AF7E4EE197199500078CAF6 /* IPhone5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhone5ViewController.h; sourceTree = "<group>"; };
+		7AF7E4EF197199500078CAF6 /* IPhone5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhone5ViewController.m; sourceTree = "<group>"; };
+		7AF7E4F0197199500078CAF6 /* IPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPadViewController.h; sourceTree = "<group>"; };
+		7AF7E4F1197199500078CAF6 /* IPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPadViewController.m; sourceTree = "<group>"; };
+		7AF7E4F2197199500078CAF6 /* DrawPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPoint.h; sourceTree = "<group>"; };
+		7AF7E4F3197199500078CAF6 /* DrawPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPoint.m; sourceTree = "<group>"; };
+		7AF7E4F4197199500078CAF6 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7AF7E4F5197199500078CAF6 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +135,16 @@
 				7AF7E4C91971993D0078CAF6 /* Main_iPad.storyboard */,
 				7AF7E4CC1971993D0078CAF6 /* ViewController.h */,
 				7AF7E4CD1971993D0078CAF6 /* ViewController.m */,
+				7AF7E4EC197199500078CAF6 /* IPhone4ViewController.h */,
+				7AF7E4ED197199500078CAF6 /* IPhone4ViewController.m */,
+				7AF7E4EE197199500078CAF6 /* IPhone5ViewController.h */,
+				7AF7E4EF197199500078CAF6 /* IPhone5ViewController.m */,
+				7AF7E4F0197199500078CAF6 /* IPadViewController.h */,
+				7AF7E4F1197199500078CAF6 /* IPadViewController.m */,
+				7AF7E4F2197199500078CAF6 /* DrawPoint.h */,
+				7AF7E4F3197199500078CAF6 /* DrawPoint.m */,
+				7AF7E4F4197199500078CAF6 /* DrawView.h */,
+				7AF7E4F5197199500078CAF6 /* DrawView.m */,
 				7AF7E4CF1971993D0078CAF6 /* Images.xcassets */,
 				7AF7E4BB1971993D0078CAF6 /* Supporting Files */,
 			);
@@ -253,9 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF7E4F8197199500078CAF6 /* IPadViewController.m in Sources */,
+				7AF7E4F6197199500078CAF6 /* IPhone4ViewController.m in Sources */,
 				7AF7E4CE1971993D0078CAF6 /* ViewController.m in Sources */,
 				7AF7E4C51971993D0078CAF6 /* AppDelegate.m in Sources */,
+				7AF7E4F9197199500078CAF6 /* DrawPoint.m in Sources */,
 				7AF7E4C11971993D0078CAF6 /* main.m in Sources */,
+				7AF7E4FA197199500078CAF6 /* DrawView.m in Sources */,
+				7AF7E4F7197199500078CAF6 /* IPhone5ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
